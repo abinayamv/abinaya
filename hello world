@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<conio.h>
+char name[20];
+{
+printf("\n Hello world");
+scanf("%s",&name);
+return 0;
+}
