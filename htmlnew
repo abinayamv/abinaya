@@ -1,0 +1,40 @@
+!DOCTYPE html>
+<html>
+<head>
+  <title>Greeting Box</title>
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .greeting-box {
+      background-color: #ffffff;
+      border: 2px solid #00796b;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .greeting-box h1 {
+      color: #00796b;
+    }
+
+    .greeting-box p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="greeting-box">
+    <h1>Hello!</h1>
+    <p>Welcome to my simple webpage styled with CSS.</p>
+  </div>
+
+</body>
+</html>
